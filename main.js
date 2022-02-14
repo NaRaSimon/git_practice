@@ -12,9 +12,12 @@ const  userEmail = {
   email: 'naraya1225@gmail.com'
 }
 
+
+
 const target = Object.assign(uesrAge,userEmail)
 console.log(uesrAge)
 console.log(userEmail)
+console.log(target)
 console.log(target === uesrAge)
 
 const a = {k:123}
