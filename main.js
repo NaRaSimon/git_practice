@@ -17,7 +17,6 @@ const  userEmail = {
 const target = Object.assign(uesrAge,userEmail)
 console.log(uesrAge)
 console.log(uesrAge)
-console.log(userEmail)
 console.log(target)
 console.log(target === uesrAge)
 
