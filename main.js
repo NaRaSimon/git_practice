@@ -1,25 +1,17 @@
-setTimeout(function () {}, 3000)
+// 데이터의 불변성
+// 원시 데이터 : String, Number, Boolean, underfined, null
+// 참조형 데이터 : Object,  Array, Function
 
+let a = 1
+let b = 4
 
+console.log(a, b, a === b)
+b = a
 
-const uesrAge = {
-  name: 'Naraya',
-  age: 33
-}
+console.log(a, b, a === b)
+a = 7
 
-const  userEmail = {
-  name: 'NaraSimon',
-  email: 'naraya1225@gmail.com'
-}
+console.log(a, b, a === b)
+let c = 1
 
-
-
-const target = Object.assign(uesrAge,userEmail)
-console.log(uesrAge)
-console.log(uesrAge)
-console.log(target)
-console.log(target === uesrAge)
-
-const a = {k:123}
-const b = {k:123}
-console.log(a === b)
+console.log(b, c, b ===c)
